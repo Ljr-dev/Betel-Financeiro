@@ -19,7 +19,7 @@ public class ConnectionFactory {
      try{
          
             return DriverManager.getConnection(
-                    "jdbc:mysql://localhost/bdrocha?serverTimezone=UTC",
+                    "jdbc:mysql://localhost:3306/bd_rocha?serverTimezone=UTC",
                     "admin2022",
                     "123"
             );
